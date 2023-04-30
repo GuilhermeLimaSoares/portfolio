@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatCommonModule} from '@angular/material/core';
+import {MatGridListModule} from '@angular/material/grid-list';
 import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
@@ -17,6 +18,7 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCommonModule,
+    MatGridListModule,
     MatIconModule
   ],
   providers: [],

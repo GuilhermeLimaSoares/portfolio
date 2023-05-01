@@ -1,12 +1,11 @@
 <header class="header">
   <nav class="navigation">
     <div class="logo">
-      <img src="./../assets/capybara.svg" alt="" class="logo-img">
+      <img src="./../assets/capybara.svg" alt="" class="logo-img" />
     </div>
     <ul class="list">
       <li class="list__item"><a href="" class="link">About me</a></li>
       <li class="list__item"><a href="" class="link">Experience</a></li>
-      <li class="list__item"><a href="" class="link">Work</a></li>
       <li class="list__item"><a href="" class="link">Contact</a></li>
     </ul>
   </nav>
@@ -14,9 +13,16 @@
 <main class="main">
   <div class="main-description">
     <h1 class="title--greeting">Greetings, dear friends!</h1>
-    <h2 class="title--name">You can call me Guilherme Soares <span class="title--highlight">and also Capivara</span>.</h2>
-    <h3 class="title--highlight-sentence">I convert ideas into web projects.</h3>
-    <p class="resume">
+    <h2 class="title--name">
+      You can call me <span class="title--highlight">Guilherme Soares</span>
+      <span class="title--small">
+        and also <span class="title--highlight">Capivara</span></span
+      >.
+    </h2>
+    <h3 class="title--highlight-sentence">
+      I convert ideas into web projects.
+    </h3>
+    <p class="paragraph">
       Front-end developer with experience in Angular, React.js, Next.js, Redux,
       NgRx, JavaScript, TypeScript, Styled Components and REST API integration.
       I also have experience in projects managed by Agile Methodologies.
@@ -24,3 +30,93 @@
     </p>
   </div>
 </main>
+<section class="about">
+  <h3 class="title">About</h3>
+  <div class="personal-sections">
+    <mat-tab-group animationDuration="0ms">
+      <mat-tab label="Who I am">
+        <div class="content content--me">
+          <p class="paragraph">
+            Hello! My name is Guilherme, I am a FrontEnd Developer from São
+            Paulo. I've been working with technology for at least 5 years,
+            mainly with FrontEnd technologies, but I also have backend skills.
+          </p>
+          <div class="img-area">
+            <img src="../assets/me.jpg" alt="" class="img-me" />
+          </div>
+        </div>
+      </mat-tab>
+      <mat-tab label="Knowledge">
+        <div class="content content-- knowledge">
+          <div>
+            <span>Front End Skills</span>
+            <ul>
+              <li>Javascript</li>
+              <li>Typescript</li>
+              <li>React.js</li>
+              <li>Next.js</li>
+              <li>Angular</li>
+              <li>Jasmine testing framework</li>
+              <li>Jest testing framework</li>
+              <li>Redux</li>
+              <li>RxJS</li>
+            </ul>
+          </div>
+          <div>
+            <span>Back End Skills</span>
+            <ul>
+              <li>Node</li>
+              <li>Spring boot 3</li>
+            </ul>
+          </div>
+        </div>
+      </mat-tab>
+      <mat-tab label="Hobbies"
+        ><div class="content content--hobbies">
+          <div>
+            <span>Games</span>
+            <ul>
+              <li>Elden Ring (Ps4, Ps5, Xbox one, PC...)</li>
+              <li>Days Gone (Ps4, PC)</li>
+              <li>Golden Axe (Mega Driver)</li>
+              <li>Pokemon Sword and Shild (Switch)</li>
+              <li>Dragon Ball Budokai Tenkaichi 3 (Ps2)</li>
+            </ul>
+          </div>
+
+          <div>
+            <span>Bands</span>
+            <ul>
+              <li>Helloween</li>
+              <li>Queensryche</li>
+              <li>Legião Urbana</li>
+              <li>Engenheiros do Hawaii</li>
+              <li>Culture club</li>
+            </ul>
+          </div>
+
+          <div>
+            <span>Series</span>
+            <ul>
+              <li>GOT</li>
+              <li>Breaking Bad</li>
+              <li>Power Rangers RPM</li>
+              <li>Crash Landing on You</li>
+              <li>Narcos</li>
+            </ul>
+          </div>
+          <div>
+            <span>Animes</span>
+            <ul>
+              <li>Neon Genesis Evangelion</li>
+              <li>Dragon Ball Z</li>
+              <li>Digimon Frontier</li>
+              <li>Yuyu Hakusho</li>
+              <li>Saint Seiya </li>
+            </ul>
+          </div>
+        </div></mat-tab
+      >
+    </mat-tab-group>
+  </div>
+</section>

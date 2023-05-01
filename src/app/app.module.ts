@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCommonModule} from '@angular/material/core';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import {MatIconModule} from '@angular/material/icon';
     BrowserAnimationsModule,
     MatCommonModule,
     MatGridListModule,
-    MatIconModule
+    MatIconModule,
+    MatListModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

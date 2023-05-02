@@ -108,12 +108,43 @@
   }
 }
 
-.experience{
+.experience {
   padding: 16px;
   color: #8892b0;
   border-right: 1px solid #3f51b5;
   border-bottom: 1px solid;
   margin-bottom: 28px;
+}
+
+.contact {
+  padding: 16px;
+  color: #8892b0;
+  border-right: 1px solid #3f51b5;
+  border-bottom: 1px solid;
+  margin-bottom: 28px;
+
+  &-area {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-info {
+    width: max-content;
+  }
+
+  &-item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+  }
+
+  &-logo {
+    width: 40px;
+  }
+
+  &-title {}
 }
 
 .mat-tab-group {
@@ -132,11 +163,21 @@
 
         &--me {
           display: block;
-          .img-area{
+
+          .img-area {
             text-align: center;
           }
         }
       }
+    }
+  }
+
+  .contact {
+    &-area {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 24px;
     }
   }
 }
